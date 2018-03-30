@@ -129,7 +129,54 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+        <article id="about" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">Neighbor Home ●°</h2>
+          <span className="image main">
+            <img src={neighborhome} alt="" />
+          </span>
+          <p>
+            Pahlka Posse is a group of Turing School students who are
+            passionate about civic tech. We named our group after Jennifer
+            Pahlka of Code for America, whose leadership has helped us
+            understand the possibilities in this space. Starting in March
+            2016 we began meeting to identify a project that would match our
+            capabilities and interests as a group, as well as serve the
+            Denver community. We have begun developing an application that
+            helps low-income Denver residents to find suitable housing.
+            Housing stood out as an area for impact -- it is the basis of
+            individual wealth and stability, and shapes one's sense of
+            community and connection. While current housing tools take some
+            individual preferences into consideration, most do not
+            adequately address the needs of low-income residents and those
+            who depend on public transportation and public services. Our
+            app, therefore, is one that helps users optimize access to vital
+            services, employment opportunities, and community resources.
+          </p>
+          <h3 className="major">Wireframe and Features</h3>
+          <span className="image main">
+            <img src={wireframe2} alt="" />
+          </span>
+          <ul>
+            User can search for ideal neighborhoods based upon:
+            <li>
+              3 most frequently visited neighborhoods (e.g. work, childcare,
+              social services)
+            </li>
+            <li>
+              Mode of transportation:
+              <li>Public</li>
+              <li>Transportation</li>
+              <li>Driving</li>
+              <li>Walking</li>
+              <li>Biking</li>
+            </li>
+            <li>Income (coming soon)</li>
+            <li> User can toggle neighboorhoods on map</li>
+          </ul>
+          {close}
+        </article>
+
+        {/* <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
           <form method="post" action="mailto:karinamzalez@gmail.com" netlify>
             <div className="field half first">
@@ -176,7 +223,7 @@ class Main extends React.Component {
             </li>
           </ul>
           {close}
-        </article>
+        </article> */}
       </div>
   }
 }
