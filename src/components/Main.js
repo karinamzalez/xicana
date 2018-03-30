@@ -131,7 +131,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="mailto:karinamzalez@gmail.com" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -155,22 +155,22 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="#" className="icon fa-twitter">
+              <a href="https://twitter.com/karinamzalez" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-instagram">
+              <a href="https://www.instagram.com/tu.flor/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-github">
+              <a href="https://www.linkedin.com/in/karinamzalez/" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/karinamzalez" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
