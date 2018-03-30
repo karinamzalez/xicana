@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Karina ●°',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Dimension by HTML5 UP',
+    author: 'Karina Muñoz Gonzalez',
+    description: 'A XICANA POETA Y ACTIVISTA TURNED PROGRAMMER.',
   },
   pathPrefix: '/',
   plugins: [
