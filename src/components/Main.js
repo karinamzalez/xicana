@@ -130,7 +130,8 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
-        <article id="about" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+
+        <article id="about" className={`${this.props.article === '' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Neighbor Home ●°</h2>
           <span className="image main">
             <img src={neighborhome} alt="" />
