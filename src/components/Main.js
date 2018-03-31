@@ -131,7 +131,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === '' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Neighbor Home ●°</h2>
           <span className="image main">
             <img src={neighborhome} alt="" />
