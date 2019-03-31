@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{123:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Karina ●°",description:"A XICANA POETA Y ACTIVISTA TURNED PROGRAMMER."}}},layoutContext:{}}}});
+//# sourceMappingURL=path----8375cf76c0d9a1b3e071.js.map
