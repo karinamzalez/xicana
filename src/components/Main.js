@@ -84,7 +84,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:karinamzalez@gmail.com" netlify>
+          <form method="post" action="mailto:karinamzalez@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -166,11 +166,13 @@ class Main extends React.Component {
             </li>
             <li>
               Mode of transportation:
-              <li>Public</li>
-              <li>Transportation</li>
-              <li>Driving</li>
-              <li>Walking</li>
-              <li>Biking</li>
+              <ul>
+                <li>Public</li>
+                <li>Transportation</li>
+                <li>Driving</li>
+                <li>Walking</li>
+                <li>Biking</li>
+              </ul>
             </li>
             <li>Income (coming soon)</li>
             <li> User can toggle neighboorhoods on map</li>
@@ -180,7 +182,7 @@ class Main extends React.Component {
 
         {/* <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:karinamzalez@gmail.com" netlify>
+          <form method="post" action="mailto:karinamzalez@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />

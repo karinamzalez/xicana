@@ -4,7 +4,7 @@ module.exports = {
     author: 'Karina Muñoz Gonzalez',
     description: 'A XICANA POETA Y ACTIVISTA TURNED PROGRAMMER.',
   },
-  pathPrefix: '/',
+  pathPrefix: 'xicana',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
