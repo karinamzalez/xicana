@@ -28,7 +28,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://karinamzalez.github.io/xicana/"
+    "url": "git@github.com:karinamzalez/xicana.git"
   },
   "scripts": {
     "dev": "gatsby develop",
