@@ -4,6 +4,8 @@ import munoz from '../images/munoz.png'
 import cope from '../images/cope.gif'
 import cope2 from '../images/cope2.gif'
 import neighborhome from '../images/nh.gif'
+import pir from '../images/PIR.jpg'
+import visuals from '../images/visuals.gif'
 import wireframe from '../images/wireframe.png'
 import wireframe2 from '../images/installation.png'
 
@@ -131,12 +133,12 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">crbn ftprnt ●°</h2>
-          <span className="image main">
-            <img src={neighborhome} alt="" />
-          </span>
+        <span className="image main">
+          <img src={visuals} alt="" />
+        </span>
           <p>
-            crbn ftprnt is an installation I designed and built with the
-            help of my software collective, <a href="http://brightweb.network/">bright.wwwev</a>. The installation
+            crbn ftprnt is an installation I designed. It was built with the
+            help of my software collective, <a href="http://brightweb.network/">bright.wwweb</a>. The installation
             was commissioned by <a href="http://www.warmcookiesoftherevolution.org/">Warm Cookies Revolution</a> for an event
             centered around "energy" and the myriad of ways our community 
             can reclaim agency over said energy. I chose to focus on the energy we pour into our
@@ -150,11 +152,11 @@ class Main extends React.Component {
             they're a part of a physical movement. This was an attempt to facilitate that movement.
           </p>
           <h3 className="major">Design & Features: </h3>
-          <span className="image main">
-            <img src={wireframe2} alt="" />
-          </span>
           <ul>
             Installation consisted of:
+          <span className="image main">
+            <img src={pir} alt="" />
+          </span>
             <li>
               3 lanterns. Each lantern represented it's own binary question and contained:
               <ul>
@@ -163,9 +165,12 @@ class Main extends React.Component {
                 <li>Arduino</li>
               </ul>
             </li>
+          <span className="image main">
+            <img src={neighborhome} alt="" />
+          </span>
             <li>
-              If the individuals answer to a lanterns question was "yes", they put a pom pom ball into the
-              lantern which would sense the movement, trigger the LED, and render a node on the projection.
+              A projected visualization. If the individuals answer to a lantern's question was "yes", they put a pom pom ball into the
+              lantern, which would sense the movement, trigger the LED, and render a node on the projection.
               The projection consisted of:
               <ul>
                 <li>Three binary trees connected, one per binary question.
@@ -179,10 +184,14 @@ class Main extends React.Component {
                 </li>
               </ul>
             </li>
-            <li>The three binary questions we asked were rendered on the lanterns and 
-              on a monitor off to the side. The monitor included actionable steps to 
-              reduce your carbon footprint, by addressing each question. The 
-              three questions were:
+          <span className="image main">
+            <img src={wireframe2} alt="" />
+          </span>
+          <li> <a href="http://brightweb.network/">Actionable Items</a>. The three binary questions we asked were rendered on the lanterns and 
+            on a monitor off to the side. The monitor included actionable steps to 
+            reduce your carbon footprint, by addressing each question. The 
+            three questions were:
+
               <ul>
                 <li>DO YOU COMPOST?</li> 
                 <li>DO YOU DRIVE TO WORK?</li> 
