@@ -169,7 +169,7 @@ class Main extends React.Component {
             <img src={neighborhome} alt="" />
           </span>
             <li>
-              A projected visualization. If the individuals answer to a lantern's question was "yes", they put a pom pom ball into the
+              A projected visualization. If the individual's answer to a lantern's question was "yes", they put a pom pom ball into the
               lantern, which would sense the movement, trigger the LED, and render a node on the projection.
               The projection consisted of:
               <ul>
