@@ -158,7 +158,7 @@ class Main extends React.Component {
             <img src={pir} alt="" />
           </span>
             <li>
-              3 lanterns. Each lantern represented it's own binary question and contained:
+              3 lanterns. Each lantern represented its own binary question and contained:
               <ul>
                 <li>PIR Sensor</li>
                 <li>LED</li>
