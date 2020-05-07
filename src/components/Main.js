@@ -143,7 +143,7 @@ class Main extends React.Component {
             centered around "energy" and the myriad of ways our community 
             can reclaim agency over said energy. I chose to focus on the energy we pour into our
             individual carbon footprints. What resulted was an immersive experience that
-            allowsed people to interact with a data visualization representing their carbon footprints. 
+            allowed people to interact with a data visualization representing their carbon footprints. 
             The idea stemmed from the fact that most change comes from comparison to neighbors,
             social interaction, group think-- "if I'm the only one changing my diet, nothing is
             going to change, so I'll eat my meat anyway." If we see our neighbors changing,
