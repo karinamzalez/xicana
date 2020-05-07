@@ -1,13 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import munoz from '../images/munoz.png'
 import cope from '../images/cope.gif'
 import cope2 from '../images/cope2.gif'
 import neighborhome from '../images/nh.gif'
 import wireframe from '../images/wireframe.png'
-import wireframe2 from '../images/wireframe2.png'
-import pic03 from '../images/pic03.jpg'
+import wireframe2 from '../images/installation.png'
 
 class Main extends React.Component {
   render() {
@@ -28,9 +26,9 @@ class Main extends React.Component {
             of this innate urge to empathize with one another. Programming
             languages aren’t exempt to this theory-- the more languages I
             learn, the more individuals I can interact with. For as long as
-            I can remember, from video chatting with my family in Mexico for
-            the first time to editing the HTML on my first Myspace page,
-            I’ve deeply believed in technology’s unprecedented ability to
+            I can remember-- from video chatting with my family in Mexico for
+            the first time, to editing the HTML on my first Myspace page--
+            I’ve always deeply believed in technology’s unprecedented ability to
             unlock human potential. Because of this belief, my transition
             from the nonprofit world to the enigmatic world of software
             development felt not only natural, but necessary. Software
@@ -47,15 +45,15 @@ class Main extends React.Component {
             <img src={cope} alt="" />
           </span>
           <p>
-            VolunteerCope, is a partnership established between a civic tech
-            group, Pahlka, and a Boys and Girls Club's STEM program
-            coordinator, Ken. Our goal: empower marginalized children by
-            exposing them to code/logic-thinking patterns, assuming the
-            kiddos weren't already. I developed this single-page web app to
-            improve the program's efficiency. Technologies and patterns:
-            Hand-rolled authentication using Net::HTTP, hand-rolled weekly
-            calendar, consumed Github's API and created an internal API to
-            synchronize database with Github's/improve user experience.
+          VolunteerCope, is a partnership I established while studying 
+          at the Turing School of Software & Design. A partnership between 
+          our civic tech group, Pahlka, and a our local Boys and Girls Club.
+          Our goal: empower children by exposing them to code/logic-thinking
+          patterns, assuming the kiddos weren't already. I developed this 
+          single-page web app to improve the program's efficiency. Technologies
+          and patterns: Hand-rolled authentication using Net::HTTP, hand-rolled
+          weekly calendar, consumed Github's API and created an internal API
+          to synchronize database with Github's/improve user experience.
           </p>
           <h3 className="major">Wireframe and Features</h3>
           <span className="image main">
@@ -132,50 +130,65 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
-          <h2 className="major">Neighbor Home ●°</h2>
+          <h2 className="major">crbn ftprnt ●°</h2>
           <span className="image main">
             <img src={neighborhome} alt="" />
           </span>
           <p>
-            Pahlka Posse is a group of Turing School students who are
-            passionate about civic tech. We named our group after Jennifer
-            Pahlka of Code for America, whose leadership has helped us
-            understand the possibilities in this space. Starting in March
-            2016 we began meeting to identify a project that would match our
-            capabilities and interests as a group, as well as serve the
-            Denver community. We have begun developing an application that
-            helps low-income Denver residents to find suitable housing.
-            Housing stood out as an area for impact -- it is the basis of
-            individual wealth and stability, and shapes one's sense of
-            community and connection. While current housing tools take some
-            individual preferences into consideration, most do not
-            adequately address the needs of low-income residents and those
-            who depend on public transportation and public services. Our
-            app, therefore, is one that helps users optimize access to vital
-            services, employment opportunities, and community resources.
+            crbn ftprnt is an installation I designed and built with the
+            help of my software collective, <a href="http://brightweb.network/">bright.wwwev</a>. The installation
+            was commissioned by <a href="http://www.warmcookiesoftherevolution.org/">Warm Cookies Revolution</a> for an event
+            centered around "energy" and the myriad of ways our community 
+            can reclaim agency over said energy. I chose to focus on the energy we pour into our
+            individual carbon footprints. What resulted was an immersive experience that
+            allowsed people to interact with a data visualization representing their carbon footprints. 
+            The idea stemmed from the fact that most change comes from comparison to neighbors,
+            social interaction, group think-- "if I'm the only one changing my diet, nothing is
+            going to change, so I'll eat my meat anyway." If we see our neighbors changing,
+            then it becomes a collaborative effort. A part of a whole. Not isolation.
+            This is an ongoing battle. People change when they feel like
+            they're a part of a physical movement. This was an attempt to facilitate that movement.
           </p>
-          <h3 className="major">Wireframe and Features</h3>
+          <h3 className="major">Design & Features: </h3>
           <span className="image main">
             <img src={wireframe2} alt="" />
           </span>
           <ul>
-            User can search for ideal neighborhoods based upon:
+            Installation consisted of:
             <li>
-              3 most frequently visited neighborhoods (e.g. work, childcare,
-              social services)
-            </li>
-            <li>
-              Mode of transportation:
+              3 lanterns. Each lantern represented it's own binary question and contained:
               <ul>
-                <li>Public</li>
-                <li>Transportation</li>
-                <li>Driving</li>
-                <li>Walking</li>
-                <li>Biking</li>
+                <li>PIR Sensor</li>
+                <li>LED</li>
+                <li>Arduino</li>
               </ul>
             </li>
-            <li>Income (coming soon)</li>
-            <li> User can toggle neighboorhoods on map</li>
+            <li>
+              If the individuals answer to a lanterns question was "yes", they put a pom pom ball into the
+              lantern which would sense the movement, trigger the LED, and render a node on the projection.
+              The projection consisted of:
+              <ul>
+                <li>Three binary trees connected, one per binary question.
+                  The nodes represented pollution.
+                </li>
+                <li>A rotation of nature gifs in the background. The gifs were
+                consumed grom Giphy's API. </li>
+                <li>As people answered yes to the questions, the visualization 
+                  would render a new nature gif, and it would appear more polluted
+                  due to the newly added node.
+                </li>
+              </ul>
+            </li>
+            <li>The three binary questions we asked were rendered on the lanterns and 
+              on a monitor off to the side. The monitor included actionable steps to 
+              reduce your carbon footprint, by addressing each question. The 
+              three questions were:
+              <ul>
+                <li>DO YOU COMPOST?</li> 
+                <li>DO YOU DRIVE TO WORK?</li> 
+                <li>DO YOU USE HEATING AND COOLING IN YOUR HOME?</li> 
+              </ul>
+            </li>
           </ul>
           {close}
         </article>

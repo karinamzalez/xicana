@@ -40,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            °● Project
+            °● Installation
           </a>
         </li>
         <li>
