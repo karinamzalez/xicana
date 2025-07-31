@@ -1,42 +1,29 @@
 {
-  "name": "gatsby-starter-dimension",
-  "description": "A XICANA POETA Y ACTIVISTA TURNED PROGRAMMER.",
-  "version": "1.0.0",
-  "author": "Karina Muñoz Gonzalez",
-  "dependencies": {
-    "gatsby": "^1.9.235",
-    "gatsby-image": "^1.0.42",
-    "gatsby-link": "^1.6.39",
-    "gatsby-plugin-google-analytics": "^1.0.24",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.23",
-    "gatsby-plugin-sharp": "^1.6.41",
-    "gatsby-remark-copy-linked-files": "^1.5.30",
-    "gatsby-remark-images": "^1.5.56",
-    "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.37",
-    "gatsby-transformer-sharp": "^1.6.22",
-    "gh-pages": "^1.1.0",
-    "lodash": "^4.17.4",
-    "node-sass": "^4.12.0"
-  },
-  "homepage": "https://karinamzalez.github.io/xicana/",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:karinamzalez/xicana.git"
-  },
+  "name": "karina-personal-site",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.31",
+    "react": "^18",
+    "react-dom": "^18",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.344.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.31"
   }
 }
