@@ -217,8 +217,7 @@ export default function Home() {
             />
           </div>
           <p className="text-lg leading-relaxed">
-            crbn ftprnt is an installation I designed. It was built with the
-            help of my software collective, <a href="http://brightweb.network/" className="text-accent hover:underline">bright.wwweb</a>. The installation
+            crbn ftprnt is an installation I designed. All code was written in Go and TypeScript. I collaborated with my software collective, <a href="https://github.com/bright-wwweb/crbn-ftprnt" className="text-accent hover:underline">bright.wwweb</a>. to bring the idea to life. The installation
             was commissioned by <a href="http://www.warmcookiesoftherevolution.org/" className="text-accent hover:underline">Warm Cookies Revolution</a> for an event
             centered around "energy" and the myriad of ways our community 
             can reclaim agency over said energy. I chose to focus on the energy we pour into our
