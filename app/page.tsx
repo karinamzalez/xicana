@@ -219,18 +219,13 @@ export default function Home() {
           <p className="text-lg leading-relaxed">
             crbn ftprnt is an installation I designed. All code was written in Go and TypeScript. I collaborated with my software collective, <a href="https://github.com/bright-wwweb/crbn-ftprnt" className="text-accent hover:underline">bright.wwweb</a>. to bring the idea to life. The installation
             was commissioned by <a href="http://www.warmcookiesoftherevolution.org/" className="text-accent hover:underline">Warm Cookies Revolution</a> for an event
-            centered around "energy" and the myriad of ways our community 
-            can reclaim agency over said energy. I chose to focus on the energy we pour into our
+            centered around "energy". I chose to focus on the energy we pour into our
             individual carbon footprints. What resulted was an immersive experience that
-            allowed people to interact with a data visualization representing their carbon footprints.
+            allowed people to interact with a data visualization that represented our collective carbon footprint.
           </p>
           <p className="text-lg leading-relaxed">
-            The idea stemmed from the fact that most change comes from comparison to neighbors,
-            social interaction, group think-- "if I'm the only one changing my diet, nothing is
-            going to change, so I'll eat my meat anyway." If we see our neighbors changing,
-            then it becomes a collaborative effort. A part of a whole. Not isolation.
-            This is an ongoing battle. People change when they feel like
-            they're a part of a physical movement. This was an attempt to facilitate that movement.
+            The idea stemmed from the notion that a motivator for change stems from our innate tendency to compare ourselves to our neighbors, group think-- "if I'm the only one doing it, nothing is going to change." If we see our neighbors changing,
+            then it becomes a collaborative effort. Change suddenly becomes less heavy, now more of a _movement_. 
           </p>
           
           <div className="space-y-8">
