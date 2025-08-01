@@ -223,7 +223,7 @@ export default function Home() {
             centered around "energy". I chose to focus on the energy we consume, our carbon footprints. What resulted was an immersive experience that enabled participants to interact with a visual representation of their collective carbon footprint.
           </p>
           <p className="text-lg leading-relaxed">
-            A big motivator for sustainable change stems from our innate tendency to compare ourselves to others, group think-- "if I'm the only one doing it, nothing is going to change." If we see our neighbors changing,
+            A big motivator for sustainable change stems from our intrinsic tendency to compare ourselves to others, group think-- "if I'm the only one doing it, nothing is going to change." If we see our neighbors changing,
             then change becomes a collaborative effort. Change is now suddenly less of a heavy burden and more of a collective _movement_. 
           </p>
           
