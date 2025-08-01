@@ -1,0 +1,4 @@
+# Don't ignore LFS files
+!.gitattributes
+!public/images/programmatic-art/*.gif
+!public/images/*.gif 
