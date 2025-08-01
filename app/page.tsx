@@ -233,7 +233,7 @@ export default function Home() {
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">Installation Components</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>• 3 lanterns with PIR sensors, LEDs, and Arduinos</li>
+                  <li>• 3 lanterns with respective binary questions, PIR sensors, LEDs, and Arduinos</li>
                   <li>• Projected visualization with binary trees</li>
                   <li>• Nature gifs consumed from Giphy's API</li>
                   <li>• Actionable items monitor with carbon reduction steps</li>
@@ -252,15 +252,14 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">The Three Binary Questions</h3>
-                <p className="text-gray-300">The three questions we asked were:</p>
                 <ul className="space-y-2 text-gray-300">
                   <li>• DO YOU COMPOST?</li>
                   <li>• DO YOU DRIVE TO WORK?</li>
                   <li>• DO YOU USE HEATING AND COOLING IN YOUR HOME?</li>
                 </ul>
                 <p className="text-gray-300 mt-4">
-                  If the individual's answer to a lantern's question was "yes", they put a pom pom ball into the
-                  lantern, which would sense the movement, trigger the LED, and render a node on the projection.
+                  If an individual's answer to a question was "yes", they dropped a ball into the
+                  lantern. The PIR sensor in the lantern would sense the movement, trigger the LED, and render a new node on the binary treeprojection.
                 </p>
               </div>
               <div className="relative w-full h-48">
@@ -282,7 +281,7 @@ export default function Home() {
                   <li>• The nodes represented pollution</li>
                   <li>• A rotation of nature gifs in the background</li>
                   <li>• As people answered yes to the questions, the visualization would render a new nature gif</li>
-                  <li>• It would appear more polluted due to the newly added node</li>
+                  <li>• It would appear more polluted as the night progressed</li>
                 </ul>
               </div>
               <div className="relative w-full h-48">
