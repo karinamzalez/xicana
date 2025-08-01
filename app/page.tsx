@@ -99,7 +99,7 @@ export default function Home() {
           <p className="text-lg leading-relaxed">
             I’m a mission‑driven Software Engineer with 8+ years of full‑stack experience leveraging software
             to create effective platforms for diverse populations. Skilled in accessibility, picking up
-            new tools, cloud infrastructure and building scalable services for millions of users. I’ve built
+            new tools, and building scalable services for millions of users. I’ve built
             inclusive digital platforms mainly for government agencies and nonprofits.
           </p>
           <p className="text-lg leading-relaxed">
