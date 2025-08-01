@@ -1,5 +1,5 @@
 {
-  "buildCommand": "git lfs pull && npm run build",
+  "buildCommand": "apt-get update && apt-get install -y git-lfs && git lfs install && git lfs pull && npm run build",
   "installCommand": "npm install",
   "framework": "nextjs"
 } 
