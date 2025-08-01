@@ -104,7 +104,7 @@ export default function Home() {
           </p>
           <p className="text-lg leading-relaxed">
             As an indigenous xicana with a background in community outreach, my
-            interests in regard to software remain communal: to easy-to-use platforms that improve the quality of
+            interests in regard to software remain communal: to create easy-to-use platforms that improve the quality of
             life of my fellow humans. I believe languages materialized out
             of this innate urge to empathize with one another. Programming
             languages aren't exempt to this theory-- the more languages I
