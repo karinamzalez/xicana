@@ -12,46 +12,46 @@ export default function Home() {
   
   // Art media for slideshow (supports images and videos)
   const artMedia = [
-    // Add your programmatic art media here
+    // Add your computational art media here
     { 
-      src: '/images/programmatic-art/art1.gif', 
-      alt: 'Programmatic Art Demo',
+      src: '/images/computational-art/art1.gif', 
+      alt: 'Computational Art Demo',
       type: 'image',
       description: "#html5 #canvas"
     },
     { 
-      src: '/images/programmatic-art/art2.gif', 
-      alt: 'Programmatic Art Demo 2',
+      src: '/images/computational-art/art2.gif', 
+      alt: 'Computational Art Demo 2',
       type: 'image',
       description: '#html5 #canvas'
     },
     { 
-      src: '/images/programmatic-art/art3.gif', 
-      alt: 'Programmatic Art Demo 3',
+      src: '/images/computational-art/art3.gif', 
+      alt: 'Computational Art Demo 3',
       type: 'image',
       description: '#html5 #canvas'
     },
     // Temporarily removed due to file size limit
     // { 
-    //   src: '/images/programmatic-art/art4.gif', 
-    //   alt: 'Programmatic Art Demo 4',
+    //   src: '/images/computational-art/art4.gif', 
+    //   alt: 'Computational Art Demo 4',
     //   type: 'image',
     //   description: 'Algorithmic art exploration'
     // },
     { 
-      src: '/images/programmatic-art/art5.gif', 
-      alt: 'Programmatic Art Demo 5',
+      src: '/images/computational-art/art5.gif', 
+      alt: 'Computational Art Demo 5',
       type: 'image',
       description: 'Static algorithmic art piece'
     },
     { 
-      src: '/images/programmatic-art/art6.gif', 
-      alt: 'Programmatic Art Demo 6',
+      src: '/images/computational-art/art6.gif', 
+      alt: 'Computational Art Demo 6',
       type: 'image',
       description: 'Dynamic code art visualization'
     }
-    // Example: { src: '/images/programmatic-art/artwork1.gif', alt: 'Description of artwork 1', type: 'image', description: 'Detailed description here' },
-    // Example: { src: '/images/programmatic-art/artwork2.mp4', alt: 'Description of artwork 2', type: 'video', description: 'Video description here' }
+    // Example: { src: '/images/computational-art/artwork1.gif', alt: 'Description of artwork 1', type: 'image', description: 'Detailed description here' },
+    // Example: { src: '/images/computational-art/artwork2.mp4', alt: 'Description of artwork 2', type: 'video', description: 'Video description here' }
   ]
   
   // Manual slideshow only - no auto-advance
@@ -123,12 +123,12 @@ export default function Home() {
     },
     {
       id: 'work',
-      title: 'Programmatic art',
+      title: 'Computational art',
       icon: <Brush className="w-6 h-6" />,
       content: (
         <div className="space-y-8">
           <p className="text-lg leading-relaxed">
-            Having worked primarily in the civic tech sector throughout my career as a software engineer, most of my contributions have been to private repositories. Here is a collection of some programmatic art that I've created in my free time throughout the years. 
+            Having worked primarily in the civic tech sector throughout my career as a software engineer, most of my contributions have been to private repositories. Here is a collection of some computational art that I've created in my free time throughout the years. 
           </p>
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-center">Art Gallery</h3>

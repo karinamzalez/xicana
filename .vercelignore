@@ -1,4 +1,4 @@
 # Don't ignore LFS files
 !.gitattributes
-!public/images/programmatic-art/*.gif
+!public/images/computational-art/*.gif
 !public/images/*.gif 
