@@ -555,6 +555,22 @@ export default function Home() {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* Mobile Footer */}
+        <footer className="md:hidden py-8 px-6 bg-gray-900/50 backdrop-blur-sm border-t border-gray-700">
+          <div className="flex flex-col items-center space-y-4">
+            <Image 
+              src="/images/icon.png" 
+              alt="Footer Icon" 
+              width={58} 
+              height={58} 
+              className="w-12 h-12 rounded-lg"
+            />
+            <p className="text-sm text-gray-400 text-center">
+              © 2024 Karina Muñoz Gonzalez. All rights reserved.
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   )
