@@ -128,7 +128,7 @@ export default function Home() {
       content: (
         <div className="space-y-8">
           <p className="text-lg leading-relaxed">
-            Having worked primarily in the civic tech sector throughout my career as a software engineer, most of my contributions have been to private repositories. Here is a collection of my programmatic art that I've created in my free time throughout the years. 
+            Having worked primarily in the civic tech sector throughout my career as a software engineer, most of my contributions have been to private repositories. Here is a collection of some programmatic art that I've created in my free time throughout the years. 
           </p>
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-center">Art Gallery</h3>
