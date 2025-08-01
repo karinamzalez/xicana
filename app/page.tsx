@@ -224,8 +224,8 @@ export default function Home() {
             allowed people to interact with a data visualization that represented our collective carbon footprint.
           </p>
           <p className="text-lg leading-relaxed">
-            The idea stemmed from the notion that a motivator for change stems from our innate tendency to compare ourselves to our neighbors, group think-- "if I'm the only one doing it, nothing is going to change." If we see our neighbors changing,
-            then it becomes a collaborative effort. Change suddenly becomes less heavy, now more of a _movement_. 
+            A big motivator for sustainable change stems from our innate tendency to compare ourselves to others, group think-- "if I'm the only one doing it, nothing is going to change." If we see our neighbors changing,
+            then change becomes a collaborative effort. Change is now suddenly less of a heavy burden and more of a collective _movement_. 
           </p>
           
           <div className="space-y-8">
