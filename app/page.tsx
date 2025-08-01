@@ -14,39 +14,40 @@ export default function Home() {
   const artMedia = [
     // Add your programmatic art media here
     { 
-      src: '/images/programmatic-art/art1.mov', 
+      src: '/images/programmatic-art/art1.gif', 
       alt: 'Programmatic Art Demo',
-      type: 'video',
+      type: 'image',
       description: "#html5 #canvas"
     },
     { 
-      src: '/images/programmatic-art/art2.mov', 
+      src: '/images/programmatic-art/art2.gif', 
       alt: 'Programmatic Art Demo 2',
-      type: 'video',
+      type: 'image',
       description: '#html5 #canvas'
     },
     { 
-      src: '/images/programmatic-art/art3.mov', 
+      src: '/images/programmatic-art/art3.gif', 
       alt: 'Programmatic Art Demo 3',
-      type: 'video',
+      type: 'image',
       description: '#html5 #canvas'
     },
+    // Temporarily removed due to file size limit
+    // { 
+    //   src: '/images/programmatic-art/art4.gif', 
+    //   alt: 'Programmatic Art Demo 4',
+    //   type: 'image',
+    //   description: 'Algorithmic art exploration'
+    // },
     { 
-      src: '/images/programmatic-art/art4.mov', 
-      alt: 'Programmatic Art Demo 4',
-      type: 'video',
-      description: 'Algorithmic art exploration'
-    },
-    { 
-      src: '/images/programmatic-art/art5.mov', 
+      src: '/images/programmatic-art/art5.gif', 
       alt: 'Programmatic Art Demo 5',
-      type: 'video',
+      type: 'image',
       description: 'Static algorithmic art piece'
     },
     { 
-      src: '/images/programmatic-art/art6.mov', 
+      src: '/images/programmatic-art/art6.gif', 
       alt: 'Programmatic Art Demo 6',
-      type: 'video',
+      type: 'image',
       description: 'Dynamic code art visualization'
     }
     // Example: { src: '/images/programmatic-art/artwork1.gif', alt: 'Description of artwork 1', type: 'image', description: 'Detailed description here' },
