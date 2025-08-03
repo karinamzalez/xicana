@@ -12,7 +12,44 @@ export default function Home() {
   
   // Art media for slideshow (supports images and videos)
   const artMedia = [
-    // Available computational art media
+    // Computational art pieces
+    { 
+      src: '/images/computational-art/art1.gif', 
+      alt: 'Computational Art Demo 1',
+      type: 'image',
+      description: "HTML5 Canvas algorithmic art exploration"
+    },
+    { 
+      src: '/images/computational-art/art2.gif', 
+      alt: 'Computational Art Demo 2',
+      type: 'image',
+      description: 'Dynamic code art visualization with p5.js'
+    },
+    { 
+      src: '/images/computational-art/art3.gif', 
+      alt: 'Computational Art Demo 3',
+      type: 'image',
+      description: 'Interactive generative art piece'
+    },
+    { 
+      src: '/images/computational-art/art4.gif', 
+      alt: 'Computational Art Demo 4',
+      type: 'image',
+      description: 'Complex algorithmic art exploration'
+    },
+    { 
+      src: '/images/computational-art/art5.gif', 
+      alt: 'Computational Art Demo 5',
+      type: 'image',
+      description: 'Static algorithmic art piece'
+    },
+    { 
+      src: '/images/computational-art/art6.gif', 
+      alt: 'Computational Art Demo 6',
+      type: 'image',
+      description: 'Dynamic code art visualization'
+    },
+    // Interactive installations
     { 
       src: '/images/visuals.gif', 
       alt: 'Carbon Footprint Visuals',
@@ -20,19 +57,11 @@ export default function Home() {
       description: "Interactive carbon footprint visualization"
     },
     { 
-      src: '/images/cope.gif', 
-      alt: 'Cope Animation',
-      type: 'image',
-      description: 'Animated coping mechanism visualization'
-    },
-    { 
       src: '/images/nh.gif', 
       alt: 'Neighbor Home',
       type: 'image',
       description: 'Community interaction visualization'
     }
-    // Note: Large computational art files were removed to resolve LFS storage issues
-    // You can add smaller optimized versions of your art pieces here
   ]
   
   // Manual slideshow only - no auto-advance
@@ -109,7 +138,7 @@ export default function Home() {
       content: (
         <div className="space-y-8">
           <p className="text-lg leading-relaxed">
-            Having worked primarily in the civic tech sector throughout my career as a software engineer, most of my contributions have been to private repositories. Here is a collection of some computational art and interactive installations that I've created. These were created using HTML5, CSS, JavaScript, Canvas, p5.js, C++, Xcode, and various hardware components.
+            Having worked primarily in the civic tech sector throughout my career as a software engineer, most of my contributions have been to private repositories. Here is a collection of computational art pieces and interactive installations that I've created in my free time throughout the years. These were created using HTML5, CSS, JavaScript, Canvas, p5.js, C++, Xcode, and various hardware components.
           </p>
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-center">Art Gallery</h3>
