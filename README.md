@@ -10,7 +10,7 @@ This portfolio represents the work of Karina Muñoz Gonzalez, a mission-driven S
 
 ## 🚀 Live Demo
 
-[View Live Site]([https://karinamzalez.com](https://karinamzalez.vercel.app/))
+[View Live Site](https://karinamzalez.vercel.app/)
 
 ## 🛠️ Technologies Used
 
