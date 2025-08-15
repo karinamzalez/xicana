@@ -462,7 +462,7 @@ export default function Home() {
                 className="text-center space-y-8"
               >
                 <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                  XICANA ENGINEER & POETA
+                  XICANA SOFTWARE ENGINEER
                 </h2>
                 <h3 className="text-2xl md:text-3xl font-light text-gray-300">
                   San Antonio, TX
